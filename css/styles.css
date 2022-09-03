@@ -1,0 +1,92 @@
+/*  колір тексту #757575 */
+/*  колір заголовка #212121 */
+/*  колір виділення #2196F3 */
+/* колір фона #F5F5F5*/
+/* колір фону героя #2F303A */
+/*  колір фону секції з викладачами #F5F4FA */
+/* колів фону під секцій з викладачами #FFFFFF */
+
+
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --background-color: #F5F5F5;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family:'Roboto' , sans-serif;
+    font-size: 14px ;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color) ; 
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color) ;
+    font-family: Raleway ; 
+    font-size: 26px ;
+
+}
+
+.logo-second{
+    color:#000000;
+    font-family: Raleway ; 
+    font-size: 26px ;
+}
+
+.logo-third{
+    color:#FFFFFF;
+    font-family: Raleway ; 
+    font-size: 26px ;
+}
+
+.contacts-geoadress {
+    color:#FFFFFF;
+}
+.site-nav .link {
+    color: var(--title-text-color) ;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+    letter-spacing: 0.02em;
+}
+
+.site-nav , .link:focus 
+
+.contacts .contacts-adress:hover, .contacts .contacts-adress:focus {
+    color: var(--accent-color) ;
+}
+
+.hero {
+    background-color: #2F303A ;
+    color: var(--background-color) ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+}
+.button cursor:pointer {
+    color: var(--background-color) ;
+    background-color: var(--accent-color);
+    font-size: 16px;
+    letter-spacing: 0.06em;
+}
+
+
+.section .section-title {
+    color:var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14 ;
+}
+.footer {
+    background-color: #2F303A;
+}

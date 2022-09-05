@@ -17,6 +17,7 @@
 body {
     font-family:'Roboto' , sans-serif;
     font-size: 14px ;
+    font-weight: 400;
     letter-spacing: 0.03em;
     color: var(--primary-text-color) ; 
     text-align: left;
@@ -62,12 +63,12 @@ ul {
     color:var(--accent-color);
 }
 
-.contacts .contacts-adress {
+.contacts-adress {
     font-weight: 500;
     color: var(--primary-text-color);
     text-decoration: none;
-    line-height: 1,71;
-    letter-spacing: 0,02;
+    line-height: 1.71;
+    letter-spacing: 0.02;
 }
 
 .contacts-adress:hover, .contacts-adress:focus {
@@ -81,7 +82,7 @@ ul {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase; 
@@ -105,14 +106,14 @@ ul {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0,03;
-    line-height: 1,62;
+    letter-spacing: 0.03;
+    line-height: 1.62;
 }
 .but-nav:focus , .but-nav:hover {
     color: var(--accent-color);
 }
 
-.section>.section-title {
+.section-title {
     color:var(--title-text-color);
     font-weight: 700;
     line-height: 1.14 ;   
@@ -141,20 +142,23 @@ ul {
     font-weight: 400;
     font-size: 16px;
 }
-
-.benefit>.benefit-title>.benefit-text {
+.benefit-text {
     color:var(--primary-text-color);
     line-height: 1,71;
     font-weight: 400;
     letter-spacing: 0,03;
     text-decoration: none;
 }
-.benefit .benefit-title {
+.benefit-title {
     color: var(--title-text-color);
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
-    line-height:1,14;
+    line-height:1.14;
+    text-decoration: none;
+}
+
+.port {
     text-decoration: none;
 }
 
@@ -173,7 +177,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height:1,88;
+    line-height:1.88;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
@@ -182,16 +186,21 @@ ul {
     background-color: #2F303A;
     text-decoration: none;
 }
-.footer>.footer-contacts>.footer-geoadress {
+
+.footer-geoadress {
     color:#FFFFFF;
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03;
 }
-.footer>.footer-contacts>.footer-adress{
-    font-weight: 400;
+.footer-adress {
+    text-decoration: none;
     font-size: 14px;
-    letter-spacing: 0,03;
-    line-height: 1,71;
+    letter-spacing: 0.03;
+    line-height: 1.71;
     color:  rgba(255, 255, 255, 0.6);
 }
+ address {
+    font-style: normal;
+ }

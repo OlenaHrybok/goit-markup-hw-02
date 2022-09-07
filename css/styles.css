@@ -34,19 +34,21 @@ ul {
     color: var(--accent-color) ;
     font-family: Raleway ; 
     font-size: 26px ;
-
+    line-height: calc(31/26);
 }
 
 .logo-second{
     color:#000000;
     font-family: Raleway ; 
     font-size: 26px ;
+    line-height: calc(31/26);
 }
 
 .logo-third{
     color:#FFFFFF;
     font-family: Raleway ; 
     font-size: 26px ;
+    line-height: calc(31/26);
 }
 /* ---------------------nav--------------------- */
 .site-nav .link {
@@ -54,6 +56,10 @@ ul {
     letter-spacing: 0.02em;
     font-weight: 500;
     text-decoration: none;
+    line-height: 1.14;
+}
+.site-nav .link {
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link.current {
@@ -61,6 +67,7 @@ ul {
     letter-spacing: 0.02em;
     font-weight: 500;
     text-decoration: none;
+    line-height: 1.14;
 }
 
 .site-nav , .link:focus , .link:hover {
@@ -72,7 +79,7 @@ ul {
     color: var(--primary-text-color);
     text-decoration: none;
     line-height: 1.71;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .contacts-adress:hover, .contacts-adress:focus {
@@ -81,8 +88,12 @@ ul {
     text-decoration: none;
 }
 /* -------------------------hero------------------ */
-.hero {
+.hero-main {
     background-color: #2F303A ;
+}
+
+
+.hero {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
@@ -97,6 +108,7 @@ ul {
     cursor:pointer;
     color: #FFFFFF;
     background-color: var(--accent-color);
+    font-weight: 216px;
     font-size: 16px;
     letter-spacing: 0.06em;
     align-items: center;
@@ -106,11 +118,12 @@ ul {
 }
 /* */
 .but-nav {
+    font-family: 'Roboto';
     background-color:  #F5F4FA;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     line-height: 1.62;
 }
 .but-nav:focus , .but-nav:hover {
@@ -122,26 +135,34 @@ ul {
     font-weight: 700;
     line-height: 1.14 ;   
 }
+.section-img {
+    display: block;
+}
 /* -----------------------------team--------------------- */
 .team {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: calc(42/36);
     text-align: center;
 }
 
 .team-title {
     color: var(--title-text-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 18px;
     line-height: 2 ;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
 }
 .team-text {
     color: var(--primary-text-color);
     font-size: 16px;
-    line-height: 0.84;
+    line-height:calc(19/16);
+}
+
+
+.team-img {
+display: block;
 }
 /* --------------benefit-------------------------- */
 .benefit-text {
